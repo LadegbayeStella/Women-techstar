@@ -102,8 +102,13 @@ header nav button {
 .main-container .content .text2 h1 span {
     text-decoration: underline;
     text-decoration-color: #DF6951;
-        text-decoration-style: finally;
-    text-decoration-thickness: 4px;
+        /* text-decoration-style: finally;
+    text-decoration-thickness: 4px; */
+    /* position: absolute; */
+    width: 250px;
+    z-index: -1;
+    left: 24rem;
+    top: 15.5rem;
     height:30rem;
    
 
