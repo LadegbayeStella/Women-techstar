@@ -111,8 +111,6 @@ header nav button {
     display: inline-block;
     font-weight: lighter;
     line-height: 0.85;
-
-
 }
 
 .main-container .content .text3 p {
@@ -130,7 +128,6 @@ header nav button {
     width: 765px;
     height: 764px;
     flex-shrink: 0;
-
 }
 
 .image-text .button {
