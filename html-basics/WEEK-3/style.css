@@ -10,7 +10,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    gap: 6rem;
+    gap: 8rem;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -19,7 +19,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 6rem;
     align-items: center;
 }
 
@@ -40,7 +40,7 @@ nav ul li a {
 
 header nav button {
     padding: 1.2em 2rem;
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
     background-color: white;
     border: #212832 solid 1px;
@@ -54,6 +54,7 @@ header nav button {
 
 .main-container {
     display: flex;
+    justify-content: center;
 }
 
 .content {
@@ -99,7 +100,6 @@ header nav button {
 }
 
 .main-container .content .text2 h1 span {
-    /* color: linear-gradient(to right, red, #f00 0.5px, red); */
     text-decoration: underline;
     text-decoration-color: #DF6951;
         text-decoration-style: finally;

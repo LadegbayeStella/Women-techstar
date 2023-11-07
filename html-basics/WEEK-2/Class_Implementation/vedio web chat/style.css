@@ -1,0 +1,167 @@
+body {
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+
+#video-container {
+    background-color: rgb(255, 251, 251);
+    width: 100%;
+}
+
+video {
+    border-radius: 1.5rem;
+    border-radius: 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.video-screen {
+    padding: 2rem 4%;
+}
+
+#video-control {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    gap: 1.6rem;
+    /* background-color: cadetblue; */
+}
+
+#video-control div {
+    height: 70px;
+    width: 9%;
+    border: 2px solid rgba(245, 245, 245, 0.938);
+    padding-top: -2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#video-container div span {
+    /* background-color: rgb(243, 8, 8); */
+}
+
+.vid-icon span{
+    background-color: rgb(233, 233, 236);
+    padding: 0.7em 2%;
+    margin: 1rem;
+    border-radius: 7px;
+
+}
+
+
+.video-action {
+    position: absolute;
+    top: 55%;
+    left: 46%;
+}
+
+.video-action button {
+    margin: 0 5px;
+}
+
+.video-action .btn-black {
+    /* padding:2px 2%; */
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 3% 8px;
+}
+
+.video-action .call-black {
+    /* padding:2px 2%; */
+    background-color: rgb(255, 32, 32);
+    border-radius: 3px;
+    border: none;
+    padding: 3% 16px;
+    color: white;
+}
+
+
+.video-action .btn-black i {
+    color: white;
+}
+
+.video-action .call-black i {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    #video-container {
+        background-color: rgb(255, 251, 251);
+        width: 100%;
+    }
+
+    video {
+        /* border-radius: 1.5rem;
+        border-radius: 3rem;
+        position: relative; */
+        width: 100%;
+    }
+
+    .video-screen {
+        padding: 2rem 4%;
+    }
+
+    #video-control {
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    #video-control div {
+        height: 60px;
+        width: 50px;
+        border: 2px solid rgb(233, 233, 239);
+    }
+
+
+    .video-action {
+        position: absolute;
+        top: 55%;
+        left: 46%;
+    }
+
+    .video-action button {
+        margin: 0 5px;
+    }
+
+    .video-action .btn-black {
+        /* padding:2px 2%; */
+        background-color: black;
+        border-radius: 5px;
+        border: none;
+        padding: 3% 8px;
+    }
+
+    .video-action .call-black {
+        /* padding:2px 2%; */
+        background-color: rgb(255, 32, 32);
+        border-radius: 3px;
+        border: none;
+        padding: 3% 16px;
+        color: white;
+    }
+
+
+    .video-action .btn-black i {
+        color: white;
+    }
+
+    .video-action .call-black i {
+        color: white;
+    }
+}
