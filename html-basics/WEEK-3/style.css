@@ -34,14 +34,17 @@ nav ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
 }
 
 header nav button {
     padding: 1.2em 2rem;
     border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
     border: none;
+    color: #212832;
+    font-weight: 600;
     background-color: white;
     border: #212832 solid 1px;
 }
