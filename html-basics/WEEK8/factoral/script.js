@@ -14,3 +14,20 @@ function calculateFactorial(number) {
   
   console.log(calculateFactorial(5));
   
+
+  function isEven( value){
+    if(value%2 == 0){
+        console.log(value + " is an even number");
+    }else{
+        console.log(value + " is not an even number");
+    }
+
+  }
+
+  isEven(6);
+
+
+  function power(value1, value2){
+    return Math.pow(value1, value2);
+  }
+ console.log(power(5, 3));
