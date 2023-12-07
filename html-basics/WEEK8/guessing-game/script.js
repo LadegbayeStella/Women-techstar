@@ -1,3 +1,5 @@
+// Random Number Guessing Game:
+
 function randomNum(ran) {
     let rand = Math.floor((Math.random() * 100) + 1);
     if (rand === ran) {
